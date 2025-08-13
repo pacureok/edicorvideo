@@ -1,0 +1,32 @@
+@page "/"
+
+<h3>Video Editor</h3>
+
+<input type="file" @onchange="HandleFileSelection" multiple />
+
+@if (videoUrls.Any())
+{
+    <div class="video-container">
+        <video controls src="@videoUrls.First()"></video>
+        </div>
+}
+
+<button @onclick="ExportVideo">Exportar Video</button>
+
+@code {
+    private List<string> videoUrls = new List<string>();
+
+    private async Task HandleFileSelection(InputFileChangeEventArgs e)
+    {
+        // Lógica para subir archivos al servidor
+        // (Sería más complejo, usando HttpClient para subir los archivos al backend)
+    }
+
+    private async Task ExportVideo()
+    {
+        // Lógica para llamar al backend de ASP.NET Core
+        // Por ejemplo:
+        // var client = new HttpClient();
+        // await client.PostAsJsonAsync("api/video/export", new { ProjectId = "..." });
+    }
+}
