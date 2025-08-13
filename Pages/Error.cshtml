@@ -1,0 +1,34 @@
+@page "/Error"
+@model MiVideoEditor.Server.Pages.ErrorModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Error</title>
+    <base href="/" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="MiVideoEditor.Client.styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="main">
+        <div class="content px-4">
+            <h1 class="text-danger">Error.</h1>
+            <h2 class="text-danger">Ocurrió un error al procesar tu solicitud.</h2>
+
+            @if (Model.ShowRequestId)
+            {
+                <p>
+                    <strong>ID de solicitud:</strong> <code>@Model.RequestId</code>
+                </p>
+            }
+
+            <a href="/">Volver al editor</a>
+        </div>
+    </div>
+</body>
+</html>
