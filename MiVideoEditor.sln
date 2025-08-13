@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+
+# El GUID de tipo de proyecto {9A19103F-16F7-4668-BE54-9A1E7A4F7556} es para proyectos SDK de C#
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiVideoEditor.Client", "MiVideoEditor.Client\MiVideoEditor.Client.csproj", "{B8D73F60-B101-447C-821B-4E3F4DA1A46A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiVideoEditor.Server", "MiVideoEditor.Server\MiVideoEditor.Server.csproj", "{4D5C58B6-C7EF-4E7B-A4AF-2A71E97486FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiVideoEditor.Shared", "MiVideoEditor.Shared\MiVideoEditor.Shared.csproj", "{D9B1F54B-E6F7-4D24-814E-8902B0F409C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8D73F60-B101-447C-821B-4E3F4DA1A46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D73F60-B101-447C-821B-4E3F4DA1A46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D73F60-B101-447C-821B-4E3F4DA1A46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D73F60-B101-447C-821B-4E3F4DA1A46A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5C58B6-C7EF-4E7B-A4AF-2A71E97486FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5C58B6-C7EF-4E7B-A4AF-2A71E97486FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5C58B6-C7EF-4E7B-A4AF-2A71E97486FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5C58B6-C7EF-4E7B-A4AF-2A71E97486FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B1F54B-E6F7-4D24-814E-8902B0F409C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B1F54B-E6F7-4D24-814E-8902B0F409C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B1F54B-E6F7-4D24-814E-8902B0F409C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B1F54B-E6F7-4D24-814E-8902B0F409C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B15A3A0B-9B21-4E7F-A9F7-4C73E4D6E3F4}
+	EndGlobalSection
+EndGlobal
